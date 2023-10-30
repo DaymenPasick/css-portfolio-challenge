@@ -183,20 +183,15 @@ article aside {
 
 
 /* FOOTER SECTION START */
-footer {
-    display: flex;
-    background-color: darkgoldenrod;
-}
-
-
+/* overall footer container */
 footer {
     display: flex;
     align-content: flex-end;
-    background-color: rgb(33, 57, 67);
+    background-color: darkgoldenrod;
 }
 
-/* about me label container */
-article aside { 
+/* footer label container */
+footer aside { 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,8 +200,8 @@ article aside {
     background-color: rgb(33, 57, 67);
 }
 
-/* about me paragraph container */
-.about-me-para {
+/* footer contact me link container */
+.contact-links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,8 +213,8 @@ article aside {
     width: 100%;
 }
 
-/* about me paragraph */
-.about-me-para p {
+/* footer contact me links */
+.contact-links a {
     font-size: 20px;
     font-weight: bold;
 }
