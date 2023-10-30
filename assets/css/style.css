@@ -8,6 +8,7 @@
 
 
 main {
+    width: 80%;
     background-color: antiquewhite;
     display: flex;              
     flex-direction: column;
@@ -36,8 +37,8 @@ figure {
 }
 figure img {
     display: flex;
-
-    max-width: 200px;
+    transform: scale(10,1);
+    max-width: 10%;
 }
 /* figure section end */
 
