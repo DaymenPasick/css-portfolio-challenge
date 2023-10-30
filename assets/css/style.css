@@ -14,7 +14,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 0 5%;
-    height: 200vh;
+    height: 100vh;
 }
 
 /* header section start */
@@ -37,21 +37,24 @@ figure {
    display: flex;
    width:calc(111.1%);
 }
-figure img {
+figure img {    /* settings to manipulate future border image  */
     display: flex;
     /* transform: scale(2,1); */
-    height: 20vh;
+    height: 20vh;  
     width:100%;
 }
 /* figure section end */
 
 
-/* article section start */
+/* article about me section start */
 article {
+    margin: 100px 0;
     display: flex;
+    align-self: flex-start;
+    align-content: space-between;
     background-color: brown;
 }
-/* article section end */
+/* article about me section end */
 
 
 /* section section XD start */
