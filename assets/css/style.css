@@ -18,7 +18,6 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(33, 57, 67) ;
-    rgb(33, 57, 67) 
     color: white;
     padding: 50px 40px;
     border-bottom: 10px solid rgb(155, 147, 58);
@@ -63,7 +62,7 @@ main {
     display: flex;              
     flex-direction: column;
     /* align-items: center; */
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
 
 }
@@ -86,13 +85,21 @@ figure img {    /* settings to manipulate future border image  */
 
 /* ABOUT ME ARTICLE START */
 article {
-    display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: rgb(73, 128, 128);
     border-bottom: 10px solid rgb(155, 147, 58);
-    margin: 0 5%;
-    height: 100vh;
+    margin: 0 8%;
+    height: 25vh;
 }
+
+article div h2 {
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(33, 57, 67);
+    background-color: aliceblue;
+}
+
+
 /* ABOUT ME ARTICLE END */
 
 
