@@ -33,11 +33,13 @@ header {
  header nav ul {
      display: flex;
      justify-content: flex-end;
-     align-items:center ;
  }
 
  /* stylings for content within nav-bar links  */
  header nav ul li {
+    display: flex;
+    justify-content: center;
+    padding:10px;
     margin: 0px 15px;
     font-size: 25px;
     
