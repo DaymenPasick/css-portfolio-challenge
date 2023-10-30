@@ -6,20 +6,38 @@
     /* for repetative settings & easy overall quick changes */
 }
 
+
 main {
     background-color: antiquewhite;
+    display: flex;              
+    flex-direction: column;
 }
 
 /* header section start */
 header {
    background-color: rgb(73, 128, 128); 
 }
+
+header nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    background-color: aliceblue;
+}
+
 /* header section end */
 
 
 /* figure section start */
+figure {
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+}
 figure img {
-    width: 20%;
+    display: flex;
+
+    max-width: 300px;
 }
 /* figure section end */
 
