@@ -8,10 +8,12 @@
 
 
 main {
-    width: 80%;
+    width: 90%;
     background-color: antiquewhite;
     display: flex;              
     flex-direction: column;
+    align-items: center;
+    margin: 0 5%;
 }
 
 /* header section start */
@@ -31,14 +33,11 @@ header nav ul {
 
 /* figure section start */
 figure {
-    display: flex;
-    justify-content: center;
     /* background-color: black; */
 }
 figure img {
-    display: flex;
-    transform: scale(10,1);
-    max-width: 10%;
+    transform: scale(5,1);
+    max-width: 200px;
 }
 /* figure section end */
 
