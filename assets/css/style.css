@@ -85,13 +85,14 @@ figure img {    /* settings to manipulate future border image  */
 
 /* ABOUT ME ARTICLE START */
 
+/* overall article container */
 article {
     display: flex;
     align-content: flex-end;
     background-color: rgb(33, 57, 67);
 }
 
-/* about me label */
+/* about me label container */
 article aside { 
     display: flex;
     align-items: center;
@@ -99,27 +100,27 @@ article aside {
     color: white;
     width: 25%;
     background-color: rgb(33, 57, 67);
+    border-right: 5px solid rgb(155, 147, 58);
 }
 
-
+/* about me paragraph container */
 .about-me-para {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: beige;
     border-bottom: 10px solid rgb(155, 147, 58);
+    border-left: 5px solid rgb(155, 147, 58);
     color:rgb(33, 57, 67);
     height: 25vh;
     width: 75%;
 }
 
+/* about me paragraph */
 .about-me-para p {
     font-size: 20px;
     font-weight: bold;
 }
-
-
-
 
 
 /* ABOUT ME ARTICLE END */
