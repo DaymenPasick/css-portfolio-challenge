@@ -125,17 +125,18 @@ article aside {
 
 
 /* CONTENT SECTION START */
-section {
+/* section {
     display:flex;
     background-color: rgb(136, 56, 138);
-    article {
+     */
+    section {
         display: flex;
         align-content: flex-end;
         background-color: rgb(33, 57, 67);
     }
     
     /* about me label container */
-    article aside { 
+    section aside { 
         display: flex;
         align-items: center;
         justify-content: center;
@@ -146,7 +147,7 @@ section {
     }
     
     /* about me paragraph container */
-    .about-me-para {
+    .project-section {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -159,13 +160,13 @@ section {
     }
     
     /* about me paragraph */
-    .about-me-para p {
+    .project-section div {
         font-size: 20px;
         font-weight: bold;
     }
 
 
-}
+
 /* CONTENT SECTION END*/
 
 
