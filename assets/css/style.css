@@ -20,7 +20,7 @@ header {
     background-color: rgb(73, 128, 128); 
     color: white;
     padding: 50px 40px;
-    border-bottom: 5 solid rebeccapurple;
+    border-bottom: 10px solid rgb(155, 147, 58);
     flex-wrap: wrap;
     width: 100%;
  }
