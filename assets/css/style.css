@@ -197,24 +197,28 @@ footer aside {
     align-items: center;
     justify-content: center;
     color: white;
+    border-top: 10px solid beige;
+    margin-top: -10px;
     width: 25%;
     /* background-color: rgb(33, 57, 67); */
 }
 
-/* footer contact me link container */
+/* footer contact-me link container */
 .contact-links {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: beige;
+    border-left: 10px solid rgb(33, 57, 67);
     color:rgb(33, 57, 67);
     height: 5vh;
     width: 100%;
 }
 
-/* footer contact me links */
+/* footer contact-me links */
 .contact-links a {
     font-size: 20px;
     font-weight: bold;
+    
 }
 /* FOOTER SECTION END */
