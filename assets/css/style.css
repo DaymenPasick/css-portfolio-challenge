@@ -17,7 +17,8 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(73, 128, 128); 
+    background-color: rgb(33, 57, 67) ;
+    rgb(33, 57, 67) 
     color: white;
     padding: 50px 40px;
     border-bottom: 10px solid rgb(155, 147, 58);
@@ -28,13 +29,16 @@ header {
  /* h1 my name stylings */
  header h1 {
     font-size: 40px;
+    color: white;
  }
 
  /* stylings for the nav-bar links in nav bar overall */
  header nav ul {
      display: flex;
      justify-content: flex-end;
+     margin: auto;
  }
+
 
  /* stylings for content within nav-bar links  */
  header nav ul li {
@@ -60,7 +64,6 @@ main {
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
-    /* margin: 0 5%; */
     width: 100%;
 
 }
@@ -83,9 +86,12 @@ figure img {    /* settings to manipulate future border image  */
 
 /* ABOUT ME ARTICLE START */
 article {
-    background-color: brown;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(73, 128, 128);
     border-bottom: 10px solid rgb(155, 147, 58);
-
+    margin: 0 5%;
+    height: 100vh;
 }
 /* ABOUT ME ARTICLE END */
 
