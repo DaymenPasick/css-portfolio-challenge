@@ -6,33 +6,49 @@
     /* for repetative settings & easy overall quick changes */
 }
 
+body {
+    height: 100vh;
+    background-color: beige;
+    position: relative;
+}
+
+
+/* HEADER SECTION START */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(73, 128, 128); 
+    color: white;
+   
+ }
+
+ /* general stylings for the links overall */
+ header nav ul {
+     display: flex;
+     justify-content: flex-end;
+
+ }
+
+ /* this will remove link decoration and add color to nav bar links */
+ header nav ul li a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+/* HEADER SECTION END */
+ 
 
 main {
     width: 90%;
-    /* background-color: antiquewhite; */
     display: flex;              
     flex-direction: column;
     align-items: center;
     margin: 0 5%;
-    height: 100vh;
+
 }
 
-/* header section start */
-header {
-   background-color: rgb(73, 128, 128); 
-}
 
-header nav ul {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    background-color: aliceblue;
-}
-
-/* header section end */
-
-
-/* figure section start */
+/* FIGURE SECTION START */
 figure {
    display: flex;
    width:calc(111.1%);
@@ -43,31 +59,28 @@ figure img {    /* settings to manipulate future border image  */
     height: 20vh;  
     width:100%;
 }
-/* figure section end */
+/* FIGURE SECTION END */
 
 
-/* article about me section start */
+/* ABOUT ME ARTICLE START */
 article {
-    margin: 100px 0;
-    display: flex;
-    align-self: flex-start;
-    align-content: space-between;
     background-color: brown;
 }
-/* article about me section end */
+/* ABOUT ME ARTICLE END */
 
 
-/* section section XD start */
+
+/* CONTENT SECTION START */
 section {
     display:flex;
     background-color: rgb(136, 56, 138);
 }
-/* section section XD end */
+/* CONTENT SECTION END*/
 
 
-/* footer section start */
+/* FOOTER SECTION START */
 footer {
     display: flex;
     background-color: darkgoldenrod;
 }
-/* footer section end */
+/* FOOTER SECTION END */
