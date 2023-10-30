@@ -14,6 +14,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 0 5%;
+    height: 200vh;
 }
 
 /* header section start */
@@ -34,7 +35,7 @@ header nav ul {
 /* figure section start */
 figure {
    display: flex;
-   width:calc(100% + 11.1%);
+   width:calc(111.1%);
 }
 figure img {
     display: flex;
@@ -47,6 +48,7 @@ figure img {
 
 /* article section start */
 article {
+    display: flex;
     background-color: brown;
 }
 /* article section end */
@@ -54,6 +56,7 @@ article {
 
 /* section section XD start */
 section {
+    display:flex;
     background-color: rgb(136, 56, 138);
 }
 /* section section XD end */
@@ -61,6 +64,7 @@ section {
 
 /* footer section start */
 footer {
+    display: flex;
     background-color: darkgoldenrod;
 }
 /* footer section end */
