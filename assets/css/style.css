@@ -84,7 +84,23 @@ figure img {    /* settings to manipulate future border image  */
 
 
 /* ABOUT ME ARTICLE START */
-.article-settings {
+
+article {
+    display: flex;
+    align-content: flex-end;
+    background-color: rgb(33, 57, 67);
+}
+
+/* about me label */
+article aside { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.about-me-para {
     display: flex;
     /* justify-content: center; */
     background-color: rgb(73, 128, 128);
@@ -94,17 +110,9 @@ figure img {    /* settings to manipulate future border image  */
     width: 75%;
 }
 
-article h2 {
-    display: flex;
-    align-items: flex-end;
-    color: white;
-}
 
-article {
-    display: flex;
-    align-content: flex-end;
-    background-color: rgb(33, 57, 67);
-}
+
+
 
 /* ABOUT ME ARTICLE END */
 
