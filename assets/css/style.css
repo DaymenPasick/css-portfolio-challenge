@@ -19,14 +19,28 @@ header {
     justify-content: space-between;
     background-color: rgb(73, 128, 128); 
     color: white;
-   
+    padding: 50px 40px;
+    border-bottom: 5 solid rebeccapurple;
+    flex-wrap: wrap;
  }
 
- /* general stylings for the links overall */
+ /* h1 my name stylings */
+ header h1 {
+    font-size: 40px;
+ }
+
+ /* stylings for the nav-bar links in nav bar overall */
  header nav ul {
      display: flex;
      justify-content: flex-end;
+     align-items:center ;
+ }
 
+ /* stylings for content within nav-bar links  */
+ header nav ul li {
+    margin: 0px 15px;
+    font-size: 25px;
+    
  }
 
  /* this will remove link decoration and add color to nav bar links */
