@@ -71,10 +71,10 @@ main {
 /* FIGURE SECTION START */
 figure {
    display: flex;
-   /* justify-content: center; */
    width:100%;
-}
-figure img {    /* settings to manipulate future border image  */
+
+} /* border img settings */
+figure img {    
     display: flex;
     height: 20vh;  
     width:100%;
@@ -84,7 +84,6 @@ figure img {    /* settings to manipulate future border image  */
 
 
 /* ABOUT ME ARTICLE START */
-
 /* overall article container */
 article {
     display: flex;
@@ -121,8 +120,6 @@ article aside {
     font-size: 20px;
     font-weight: bold;
 }
-
-
 /* ABOUT ME ARTICLE END */
 
 
@@ -131,6 +128,9 @@ article aside {
 section {
     display:flex;
     background-color: rgb(136, 56, 138);
+
+
+    
 }
 /* CONTENT SECTION END*/
 
