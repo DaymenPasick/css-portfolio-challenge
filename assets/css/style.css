@@ -1,20 +1,26 @@
 * {
-    /* for global settings */
+    box-sizing: border-box;
 }
 
 :root {
     /* for repetative settings & easy overall quick changes */
 }
 
-
+main {
+    background-color: antiquewhite;
+}
 
 /* header section start */
-
+header {
+    
+}
 /* header section end */
 
 
 /* figure section start */
-
+figure img {
+    width: 20%;
+}
 /* figure section end */
 
 
