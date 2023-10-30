@@ -99,7 +99,6 @@ article aside {
     color: white;
     width: 25%;
     background-color: rgb(33, 57, 67);
-    border-right: 5px solid rgb(155, 147, 58);
 }
 
 /* about me paragraph container */
@@ -109,7 +108,7 @@ article aside {
     align-items: center;
     background-color: beige;
     border-bottom: 10px solid rgb(155, 147, 58);
-    border-left: 5px solid rgb(155, 147, 58);
+    border-left: 10px solid rgb(155, 147, 58);
     color:rgb(33, 57, 67);
     height: 25vh;
     width: 100%;
@@ -140,7 +139,6 @@ article aside {
         color: white;
         width: 25%;
         background-color: rgb(33, 57, 67);
-        border-right: 5px solid rgb(155, 147, 58);
         height: 50vh;
     }
     
@@ -148,32 +146,25 @@ article aside {
     .project-section {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
         background-color: beige;
         border-bottom: 10px solid rgb(155, 147, 58);
-        border-left: 5px solid rgb(155, 147, 58);
+        border-left: 10px solid rgb(155, 147, 58);
         color:rgb(33, 57, 67);
-        /* height: 50vh; */
         width: 100%;
     }
 
-    /* flex: 4;
-  background-color: #fff;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-     */
      
     /* project img-links */
     .project-section div {
         display: flex;
-        align-items: center;
+        justify-content: center;
         font-size: 20px;
-        margin: 25% auto;
+        margin: 5%;
         border: 5px solid rgb(33, 57, 67);
         background-color: aqua;
-        padding: 20px;
+        padding: 65px;
     }
 
 
