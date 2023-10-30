@@ -32,7 +32,11 @@ header {
  /* h1 my name stylings */
  header h1 {
     font-size: 40px;
-    color: var(--brighttext);
+    color: var(--lighttan);
+ }
+
+ .white-text {
+    color:var(--darktan);
  }
 
  /* stylings for the nav-bar links in nav bar overall */
