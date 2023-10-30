@@ -5,6 +5,8 @@
 :root {
     /* for repetative settings & easy overall quick changes */
     --mainblue:rgb(33, 57, 67);
+    --lighttan:beige;
+    --darktan:rgb(155, 147, 58);
 }
 
 body {
@@ -21,7 +23,7 @@ header {
     background-color: var(--mainblue) ;
     color: white;
     padding: 50px 40px;
-    border-bottom: 10px solid rgb(155, 147, 58);
+    border-bottom: 10px solid var(--darktan);
     flex-wrap: wrap;
     width: 100%;
  }
@@ -79,7 +81,7 @@ figure img {
     display: flex;
     height: 20vh;  
     width:100%;
-    border-bottom: 10px solid rgb(155, 147, 58);
+    border-bottom: 10px solid var(--darktan);
 }
 /* FIGURE SECTION END */
 
@@ -107,9 +109,9 @@ article aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: beige;
-    border-bottom: 10px solid rgb(155, 147, 58);
-    border-left: 10px solid rgb(155, 147, 58);
+    background-color: var(--lighttan);
+    border-bottom: 10px solid var(--darktan);
+    border-left: 10px solid var(--darktan);
     color: var(--mainblue);
     height: 25vh;
     width: 100%;
@@ -149,9 +151,9 @@ article aside {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        background-color: beige;
-        border-bottom: 10px solid rgb(155, 147, 58);
-        border-left: 10px solid rgb(155, 147, 58);
+        background-color:var(--lighttan);
+        border-bottom: 10px solid var(--darktan);
+        border-left: 10px solid var(--darktan);
         color: var(--mainblue);
         width: 100%;
     }
@@ -165,7 +167,7 @@ article aside {
         margin: 5%;
         border: 5px solid  var(--mainblue);
         padding: 65px;
-        background-color:  rgb(155, 147, 58);
+        background-color:  var(--darktan);
     }
 
     #main-img {
@@ -175,7 +177,7 @@ article aside {
         font-size: 20px;
         margin: 10% 15%;
         padding: 15%;
-        background-color:  rgb(155, 147, 58);
+        background-color:  var(--darktan);
         border: 5px solid  var(--mainblue);
     }
 
@@ -188,7 +190,7 @@ article aside {
 footer {
     display: flex;
     align-content: flex-end;
-    background-color: rgb(155, 147, 58);
+    background-color: var(--darktan);
 }
 
 
@@ -198,7 +200,7 @@ footer aside {
     align-items: center;
     justify-content: center;
     color: white;
-    border-top: 10px solid beige;
+    border-top: 10px solid var(--lighttan);
     margin-top: -10px;
     width: 25%;
     /* background-color: rgb(33, 57, 67); */
@@ -209,7 +211,7 @@ footer aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: beige;
+    background-color:var(--lighttan);
     border-left: 10px solid var(--mainblue);
     color: var(--mainblue);
     height: 5vh;
