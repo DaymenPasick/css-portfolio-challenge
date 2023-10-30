@@ -244,4 +244,14 @@ footer aside {
     color: var(--mainblue);
     
 }
+
+.contact-links a:hover {
+    display: flex;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--darktan);
+    
+}
 /* FOOTER SECTION END */
