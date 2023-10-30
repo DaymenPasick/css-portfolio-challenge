@@ -12,7 +12,7 @@ main {
 
 /* header section start */
 header {
-    
+   background-color: rgb(73, 128, 128); 
 }
 /* header section end */
 
@@ -25,15 +25,21 @@ figure img {
 
 
 /* article section start */
-
+article {
+    background-color: brown;
+}
 /* article section end */
 
 
 /* section section XD start */
-
+section {
+    background-color: rgb(136, 56, 138);
+}
 /* section section XD end */
 
 
 /* footer section start */
-
+footer {
+    background-color: darkgoldenrod;
+}
 /* footer section end */
