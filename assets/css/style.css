@@ -22,6 +22,7 @@ header {
     padding: 50px 40px;
     border-bottom: 5 solid rebeccapurple;
     flex-wrap: wrap;
+    width: 100%;
  }
 
  /* h1 my name stylings */
@@ -55,7 +56,6 @@ header {
  
 
 main {
-    width: 90%;
     display: flex;              
     flex-direction: column;
     align-items: center;
@@ -67,7 +67,8 @@ main {
 /* FIGURE SECTION START */
 figure {
    display: flex;
-   width:calc(111.1%);
+   /* justify-content: center; */
+   width:calc(100%);
 }
 figure img {    /* settings to manipulate future border image  */
     display: flex;
