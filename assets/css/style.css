@@ -187,8 +187,9 @@ article aside {
 footer {
     display: flex;
     align-content: flex-end;
-    background-color: darkgoldenrod;
+    background-color: rgb(155, 147, 58);
 }
+
 
 /* footer label container */
 footer aside { 
@@ -197,7 +198,7 @@ footer aside {
     justify-content: center;
     color: white;
     width: 25%;
-    background-color: rgb(33, 57, 67);
+    /* background-color: rgb(33, 57, 67); */
 }
 
 /* footer contact me link container */
@@ -206,10 +207,8 @@ footer aside {
     justify-content: center;
     align-items: center;
     background-color: beige;
-    border-bottom: 10px solid rgb(155, 147, 58);
-    border-left: 10px solid rgb(155, 147, 58);
     color:rgb(33, 57, 67);
-    height: 25vh;
+    height: 5vh;
     width: 100%;
 }
 
