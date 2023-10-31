@@ -5,9 +5,9 @@
 /* STYLE HELPERS SECTION START */
 :root {
     /* for repetative settings & easy overall quick changes */
-    --mainblue:rgb(33, 57, 67);
-    --lighttan:beige;
-    --darktan:rgb(155, 147, 58);
+    --mainblue:rgb(8, 28, 37);
+    --lighttan:white;
+    --darktan:rgb(88, 147, 199);
     --brighttext:white;
 }
 
@@ -94,10 +94,25 @@ figure {
 } /* border img settings */
 figure img {    
     display: flex;
+    justify-content: flex-end;
     height: 20vh;  
     width:100%;
     border-bottom: 10px solid var(--darktan);
 }
+
+
+/* section for profile img style */
+figure #self-img {
+    position: absolute;
+    display: flex;
+    order: -1; /* order -1 translates the img over to the other side of the container */
+    width:18%;
+    margin-left: 1%;
+
+    border-left: 10px solid var(--darktan);
+    border-right: 10px solid var(--darktan);
+}
+
 /* FIGURE SECTION END */
 
 
