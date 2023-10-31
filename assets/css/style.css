@@ -22,6 +22,7 @@ body {
     height: 100vh;
     background-color: var(--mainblue);
     position: relative;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 
@@ -44,6 +45,7 @@ header {
     font-size: 45px;
     color:rgb(169, 233, 253);
     border-left: 8px solid white;
+    border-radius: 5%;
     padding-left: 3%;
  }
 
