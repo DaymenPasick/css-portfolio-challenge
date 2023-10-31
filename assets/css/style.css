@@ -3,7 +3,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-/* STYLE HELPERS SECTION START */
+/* STYLE HELPERS SECTION START ------------------------------------ */
 :root {
     /* for repetative settings & easy overall quick changes */
     --mainblue:rgb(8, 28, 37);
@@ -16,7 +16,7 @@
 .white-text {
     color:var(--darktan);
  }
-/* STYLE HELPERS SECTION START */
+/* STYLE HELPERS SECTION END ------------------------------------ */
 
 
 body {
@@ -26,7 +26,7 @@ body {
 }
 
 
-/* HEADER SECTION START */
+/* HEADER SECTION START ------------------------------------ */
 header {
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ header {
     background-color: rgb(0, 0, 0);
  }
 
- /* h1 my name stylings */
+ /* h1 my name stylings  */
  header h1 {
     font-size: 45px;
     color:rgb(169, 233, 253);
@@ -83,7 +83,7 @@ header {
     text-decoration: underline;
  }
  
-/* HEADER SECTION END */
+/* HEADER SECTION END ------------------------------------ */
  
 
 /* MAIN TAG STYLING */
@@ -95,7 +95,7 @@ main {
 }
 
 
-/* FIGURE SECTION START */
+/* FIGURE SECTION START ------------------------------------ */
 figure {
    display: flex;
    width:100%;
@@ -122,10 +122,10 @@ figure #self-img {
     border-right: 10px solid var(--darktan);
 }
 
-/* FIGURE SECTION END */
+/* FIGURE SECTION END ------------------------------------ */
 
 
-/* ABOUT ME ARTICLE START */
+/* ABOUT ME ARTICLE START ------------------------------------ */
 /* overall article container */
 article {
     display: flex;
@@ -167,11 +167,11 @@ article aside {
     font-size: 20px;
     font-weight: bold;
 }
-/* ABOUT ME ARTICLE END */
+/* ABOUT ME ARTICLE END ------------------------------------ */
 
 
 
-/* PROJECTS SECTION START */
+/* PROJECTS SECTION START ------------------------------------ */
 
 
     /* left-side projects label container */
@@ -208,12 +208,12 @@ article aside {
 
 
     /* for img1 to be an anchor for ovelay-text1 label(Seo-Refactor)*/
-    #main-img-container {
+    #img1 {
         position: relative;
         display: inline-block;
     }
-
-    #main-img-container img {
+    /* img1 container  */
+    #img1 img {
         display: flex;
         position: relative;
         flex-wrap: nowrap;
@@ -228,10 +228,6 @@ article aside {
     }
      
     /* smaller project-img container for relative position anchor */
-    .project-img-container {
-        position: relative;
-        display: inline-block;
-    }
 
     .project-img-container {
         display: flex;
@@ -239,6 +235,11 @@ article aside {
         justify-content: space-around;
         margin: 0 17% 5% 15%;
         padding: 0;
+    }
+
+    #img2 {
+        position: relative;
+        display: inline-block;
     }
 
     .project-img-container img {
@@ -313,10 +314,10 @@ article aside {
         box-shadow: 5px 10px 15px var(--mainblue); 
         text-align: center;
     }
-/* PROJECTS SECTION END*/
+/* PROJECTS SECTION END ------------------------------------ */
 
 
-/* FOOTER SECTION START */
+/* FOOTER SECTION START ------------------------------------ */
 /* overall footer container */
 footer {
     display: flex;
@@ -369,4 +370,4 @@ footer aside {
     color: var(--mainblue);
     
 }
-/* FOOTER SECTION END */
+/* FOOTER SECTION END ------------------------------------ */
