@@ -120,12 +120,10 @@ main {
 /* FIGURE SECTION START ------------------------------------ */
 figure {
    display: flex;
-   width:100%;
 
 } /* border img settings */
 figure img {    
     display: flex;
-    justify-content: flex-end;
     height: 20vh;  
     width:100%;
     border-bottom: 10px solid var(--darktan);
@@ -150,8 +148,6 @@ figure #self-img {
 /* overall article container */
 article {
     display: flex;
-    align-content: flex-end;
-    background-color: var(--mainblue);
 }
 
 /* about me label container */
@@ -162,7 +158,6 @@ article aside {
     color: var(--brighttext);
     width: 25%;
     font-size: 20px;
-    background-color: var(--mainblue);
 }
 
 /* about me paragraph container */
@@ -173,7 +168,6 @@ article aside {
     background-color: var(--mainblue);
     border-bottom: 10px solid var(--darktan);
     border-left: 10px solid var(--darktan);
-    color: var(--mainblue);
     height: 25vh;
     width: 100%;
 }
@@ -202,7 +196,6 @@ article aside {
         color: var(--brighttext);
         width: 25%;
         font-size: 20px;
-        background-color: var(--mainblue);
         height: 50vh;
     }
     /* project section overall container */
