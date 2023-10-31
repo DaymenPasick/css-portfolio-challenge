@@ -11,6 +11,9 @@
     --darktan:rgb(88, 147, 199);
     --brighttext:rgb(167, 239, 239);
     --darkbg: black;
+    --img-txt-bg: rgb(5, 5, 5);
+    --img-txt-shadow: gray;
+
 }
 
 .white-text {
@@ -307,8 +310,8 @@ article aside {
 
     .img-txt2 {
         position: absolute;
-        top: 50%; 
-        left: 80%; 
+        top: 15%; 
+        left: 55%; 
         transform: translate(-50%, -50%); 
         background-color: #000000; 
         color: #fff; 
@@ -320,8 +323,8 @@ article aside {
 
     .img-txt3 {
         position: absolute;
-        top: 20%; 
-        left: 80%; 
+        top: 15%; 
+        left: 55%; 
         transform: translate(-50%, -50%); 
         background-color: #000000; 
         color: #fff; 
@@ -333,8 +336,8 @@ article aside {
 
     .img-txt4 {
         position: absolute;
-        top: 20%; 
-        left: 40%; 
+        top: 15%; 
+        left: 55%; 
         transform: translate(-50%, -50%); 
         background-color: #000000; 
         color: #fff; 
@@ -346,14 +349,14 @@ article aside {
 
     .img-txt5 {
         position: absolute;
-        top: 50%; 
-        left: 40%; 
+        top: 15%;
+        left: 55%; 
         transform: translate(-50%, -50%); 
         background-color: #000000; 
         color: #fff; 
         padding: 10px 20px; 
         font-size: 15px;
-        box-shadow: 5px 10px 15px var(--mainblue); 
+        box-shadow: 10px 10px 15px var(--mainblue); 
         text-align: center;
     }
 /* PROJECTS SECTION END ------------------------------------ */
