@@ -209,15 +209,38 @@ article aside {
     }
 
     /* project main img-link */
-    #main-img img {
+    #main-img-container {
+        position: relative;
+
+        display: inline-block;
+    }
+
+    #main-img-container img {
         display: flex;
+        position: relative;
         flex-wrap: nowrap;
         flex:5 0 200%;
+        align-items: center;
         justify-content: center;
-        margin: 10% 0%;
+        color: var(--mainblue);
+        font-size: 20px;
+        margin: 10% 5%;
         border: 5px solid  var(--mainblue);
         padding: 0;
-        width: 100%;
+        width: 90%;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 70%; 
+        left: 80%; 
+        transform: translate(-50%, -50%); 
+        background-color: #000000; 
+        color: #fff; 
+        padding: 10px 20px; 
+        font-size: 15px;
+        box-shadow: 5px 10px 15px var(--mainblue); 
+        text-align: center;
     }
 
 
