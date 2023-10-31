@@ -6,9 +6,9 @@
 :root {
     /* for repetative settings & easy overall quick changes */
     --mainblue:rgb(8, 28, 37);
-    --lighttan:white;
+    --lighttan:rgb(197, 229, 246);
     --darktan:rgb(88, 147, 199);
-    --brighttext:white;
+    --brighttext:rgb(167, 239, 239);
 }
 
 .white-text {
@@ -39,7 +39,7 @@ header {
  /* h1 my name stylings */
  header h1 {
     font-size: 40px;
-    color: var(--lighttan);
+    color:rgb(167, 239, 239);
  }
 
 
@@ -171,7 +171,7 @@ article aside {
         justify-content: center;
         color: var(--brighttext);
         width: 25%;
-        background-color:  var(--mainblue);
+        background-color: var(--mainblue);
         height: 50vh;
     }
     
@@ -195,7 +195,7 @@ article aside {
         justify-content: center;
         font-size: 20px;
         margin: 5%;
-        border: 5px solid  var(--lighttan);
+        border: 5px solid  var(--mainblue);
         padding: 65px;
         background-color:  var(--darktan);
     }
@@ -209,7 +209,7 @@ article aside {
         margin: 10% 15%;
         padding: 15%;
         background-color:  var(--darktan);
-        border: 5px solid  var(--lighttan);
+        border: 10px solid  var(--mainblue);
     }
 
 
@@ -230,7 +230,7 @@ footer aside {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--brighttext);
+    color: var(--mainblue);
     border-top: 10px solid var(--lighttan);
     margin-top: -10px;
     width: 25%;
