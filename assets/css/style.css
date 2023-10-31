@@ -228,7 +228,7 @@ article aside {
 
     .overlay-text2 {
         position: absolute;
-        top: 70%; 
+        top: 50%; 
         left: 80%; 
         transform: translate(-50%, -50%); 
         background-color: #000000; 
@@ -238,6 +238,46 @@ article aside {
         box-shadow: 5px 10px 15px var(--mainblue); 
         text-align: center;
     }
+
+    .overlay-text3 {
+        position: absolute;
+        top: 20%; 
+        left: 80%; 
+        transform: translate(-50%, -50%); 
+        background-color: #000000; 
+        color: #fff; 
+        padding: 10px 20px; 
+        font-size: 15px;
+        box-shadow: 5px 10px 15px var(--mainblue); 
+        text-align: center;
+    }
+
+    .overlay-text4 {
+        position: absolute;
+        top: 20%; 
+        left: 40%; 
+        transform: translate(-50%, -50%); 
+        background-color: #000000; 
+        color: #fff; 
+        padding: 10px 20px; 
+        font-size: 15px;
+        box-shadow: 5px 10px 15px var(--mainblue); 
+        text-align: center;
+    }
+
+    .overlay-text5 {
+        position: absolute;
+        top: 50%; 
+        left: 40%; 
+        transform: translate(-50%, -50%); 
+        background-color: #000000; 
+        color: #fff; 
+        padding: 10px 20px; 
+        font-size: 15px;
+        box-shadow: 5px 10px 15px var(--mainblue); 
+        text-align: center;
+    }
+
 
 
 
