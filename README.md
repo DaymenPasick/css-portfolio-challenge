@@ -2,14 +2,7 @@
 
 ## Description
 
-According to the goals your company wanted to achieve, we were able to add the following improvements to your website's source code:
-
-- Repaired an issue with the broken "search engine optimization" navigation link. It should be functioning as intended!
-- By replacing some generic tags with more SEO friendly semantic tags, we were able to improve your website's ability to pop out in web searches, increasing your reach to future customors!
-- Cleaner code, including newly added comments within the HTML and CSS to help future developer's work more efficiently on your website!
-- Fixed some minor issues with head elements to make sure they were in numeric order and functioning as intended
-- Added alt attributes to all of your images and icons to help meet the modern-day accessibility standards 
-- Added slight hover animations over navigational links on the webpage to help user see which link they are selecting
+First and foremost, thank you for taking the time to look at my portfolio! I've been coding for about a month now and have enjoyed every bit of it..the challenges, the learning, the interactive problem-solving with fellow student programers, even the countless hours of research to acheive desired goals. If you hire me on, I can assure you I'll bring the same energy and mentality to your team. But don't let me keep you, go ahead and check out my portfolio!
 
 ## Screenshots
 
