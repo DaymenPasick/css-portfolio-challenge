@@ -11,12 +11,12 @@
     --darktan:rgb(88, 147, 199);
     --brighttext:rgb(167, 239, 239);
     --darkbg: black;
-    --img-txt-bg: rgb(5, 5, 5);
-    --img-txt-shadow: gray;
+    --img-txt-bg: rgb(0, 0, 0);
+    --img-txt-shadow: rgb(19, 18, 18);
 
 }
 
-.white-text {
+.header-text-split {
     color:var(--darktan);
  }
 /* STYLE HELPERS SECTION END ------------------------------------ */
@@ -300,11 +300,12 @@ article aside {
         top: 70%; 
         left: 80%; 
         transform: translate(-50%, -50%); 
-        background-color: #000000; 
+        background-color: var(--img-txt-bg); 
         color: #fff; 
         padding: 10px 20px; 
         font-size: 15px;
-        box-shadow: 5px 10px 15px var(--mainblue); 
+        border-radius: 5%;
+        box-shadow: 5px 10px 15px var(--img-txt-shadow); 
         text-align: center;
     }
 
@@ -313,11 +314,12 @@ article aside {
         top: 15%; 
         left: 55%; 
         transform: translate(-50%, -50%); 
-        background-color: #000000; 
+        background-color: var(--img-txt-bg); 
         color: #fff; 
         padding: 10px 20px; 
         font-size: 15px;
-        box-shadow: 5px 10px 15px var(--mainblue); 
+        border-radius: 15%;
+        box-shadow: 4px 4px 10px var(--img-txt-shadow);  
         text-align: center;
     }
 
@@ -326,11 +328,12 @@ article aside {
         top: 15%; 
         left: 55%; 
         transform: translate(-50%, -50%); 
-        background-color: #000000; 
+        background-color: var(--img-txt-bg);  
         color: #fff; 
         padding: 10px 20px; 
         font-size: 15px;
-        box-shadow: 5px 10px 15px var(--mainblue); 
+        border-radius: 15%;
+        box-shadow: 4px 4px 10px var(--img-txt-shadow);    
         text-align: center;
     }
 
@@ -339,11 +342,12 @@ article aside {
         top: 15%; 
         left: 55%; 
         transform: translate(-50%, -50%); 
-        background-color: #000000; 
+        background-color: var(--img-txt-bg);  
         color: #fff; 
         padding: 10px 20px; 
         font-size: 15px;
-        box-shadow: 5px 10px 15px var(--mainblue); 
+        border-radius: 15%;
+        box-shadow: 4px 4px 10px var(--img-txt-shadow);  
         text-align: center;
     }
 
@@ -352,11 +356,12 @@ article aside {
         top: 15%;
         left: 55%; 
         transform: translate(-50%, -50%); 
-        background-color: #000000; 
+        background-color: var(--img-txt-bg); 
         color: #fff; 
         padding: 10px 20px; 
         font-size: 15px;
-        box-shadow: 10px 10px 15px var(--mainblue); 
+        border-radius: 15%;
+        box-shadow: 4px 4px 10px var(--img-txt-shadow);  
         text-align: center;
     }
 /* PROJECTS SECTION END ------------------------------------ */
