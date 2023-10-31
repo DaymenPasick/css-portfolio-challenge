@@ -198,28 +198,25 @@ article aside {
 
      
     /* smaller project-img container for relative position anchor */
-    /* .project-img-container {
+    .project-img-container {
         position: relative;
         display: inline-block;
-    } */
+    }
 
     .project-img-container {
         display: flex;
         flex-wrap: wrap;
         /* align-items: center; */
-        justify-content: space-between;
+        justify-content: space-around;
         font-size: 20px;
-        margin: 15%;
+        margin: 0 15% 5% 15%;
         padding: 0;
-        background-color: #fff;
     }
 
     .project-img-container img {
         display: flex;
-        align-items: center;
-        justify-content: center;
         width: 100%;
-        margin: 0%;
+        margin: 0 5% 15% 5%;
         padding: 0;
     }
 
