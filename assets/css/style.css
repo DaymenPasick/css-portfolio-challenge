@@ -305,7 +305,8 @@ article aside {
         padding: 10px 20px; 
         font-size: 15px;
         border-radius: 5%;
-        box-shadow: 5px 10px 15px var(--img-txt-shadow); 
+        box-shadow: 5px 10px 15px var(--img-txt-shadow);
+        opacity: 88%; 
         text-align: center;
     }
 
@@ -319,7 +320,8 @@ article aside {
         padding: 10px 20px; 
         font-size: 15px;
         border-radius: 15%;
-        box-shadow: 4px 4px 10px var(--img-txt-shadow);  
+        box-shadow: 4px 4px 10px var(--img-txt-shadow);
+        opacity: 88%;  
         text-align: center;
     }
 
@@ -333,7 +335,8 @@ article aside {
         padding: 10px 20px; 
         font-size: 15px;
         border-radius: 15%;
-        box-shadow: 4px 4px 10px var(--img-txt-shadow);    
+        box-shadow: 4px 4px 10px var(--img-txt-shadow); 
+        opacity: 88%;    
         text-align: center;
     }
 
@@ -347,7 +350,8 @@ article aside {
         padding: 10px 20px; 
         font-size: 15px;
         border-radius: 15%;
-        box-shadow: 4px 4px 10px var(--img-txt-shadow);  
+        box-shadow: 4px 4px 10px var(--img-txt-shadow); 
+        opacity: 88%;  
         text-align: center;
     }
 
@@ -362,6 +366,7 @@ article aside {
         font-size: 15px;
         border-radius: 15%;
         box-shadow: 4px 4px 10px var(--img-txt-shadow);  
+        opacity: 88%; 
         text-align: center;
     }
 /* PROJECTS SECTION END ------------------------------------ */
