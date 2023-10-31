@@ -229,6 +229,17 @@ article aside {
         color: var(--mainblue);
         margin: 10% 0 10% 5%;
         border: 5px solid  var(--mainblue);
+        opacity: 90%;
+        width: 90%;
+    }
+    #img1 img:hover {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        color: var(--mainblue);
+        margin: 10% 0 10% 5%;
+        border: 5px solid  var(--mainblue);
+        opacity: 100%;
         width: 90%;
     }
      
@@ -244,6 +255,16 @@ article aside {
         width: 100%;
         margin: 0 5% 15% 5%;
         border-radius: 4%;
+        opacity: 90%;
+        padding: 0;
+    }
+
+    .img2 img:hover {
+        display: flex;
+        width: 100%;
+        margin: 0 5% 15% 5%;
+        border-radius: 4%;
+        opacity: 100%;
         padding: 0;
     }
 
@@ -259,6 +280,16 @@ article aside {
         transform: scale(-1,1);
         margin: 0 5% 15% 5%;
         border-radius: 4%;
+        opacity: 90%;
+        padding: 0;
+    }
+
+    .img3 img:hover {
+        display: flex;
+        width: 100%;
+        margin: 0 5% 15% 5%;
+        border-radius: 4%;
+        opacity: 100%;
         padding: 0;
     }
 
@@ -275,6 +306,16 @@ article aside {
         border-radius: 4%;
         transform: scale(1,-1);
         transform: scale(-1,1);
+        opacity: 90%;
+        padding: 0;
+    }
+
+    .img4 img:hover {
+        display: flex;
+        width: 100%;
+        margin: 0 5% 15% 5%;
+        border-radius: 4%;
+        opacity: 100%;
         padding: 0;
     }
     
@@ -289,8 +330,19 @@ article aside {
         width: 100%;
         margin: 0 5% 15% 5%;
         border-radius: 4%;
+        opacity: 90%;
         padding: 0;
     }
+
+    .img5 img:hover {
+        display: flex;
+        width: 100%;
+        margin: 0 5% 15% 5%;
+        border-radius: 4%;
+        opacity: 100%;
+        padding: 0;
+    }
+
 
 
 
