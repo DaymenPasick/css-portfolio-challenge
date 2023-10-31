@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 /* STYLE HELPERS SECTION START */
@@ -22,7 +23,6 @@ body {
     height: 100vh;
     background-color: var(--mainblue);
     position: relative;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 
@@ -251,7 +251,7 @@ article aside {
         display: flex;
         position: relative;
         flex-wrap: nowrap;
-        flex:5 0 200%;
+        flex: 1;
         justify-content: center;
         color: var(--mainblue);
         font-size: 20px;
