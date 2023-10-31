@@ -9,6 +9,7 @@
     --lighttan:rgb(197, 229, 246);
     --darktan:rgb(88, 147, 199);
     --brighttext:rgb(167, 239, 239);
+    --darkbg: black;
 }
 
 .white-text {
@@ -39,7 +40,7 @@ header {
  /* h1 my name stylings */
  header h1 {
     font-size: 40px;
-    color:rgb(167, 239, 239);
+    color:rgb(169, 233, 253);
  }
 
 
@@ -139,7 +140,7 @@ article aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--lighttan);
+    background-color: var(--mainblue);
     border-bottom: 10px solid var(--darktan);
     border-left: 10px solid var(--darktan);
     color: var(--mainblue);
@@ -149,6 +150,7 @@ article aside {
 
 /* about me paragraph */
 .about-me-para p {
+    color: var(--brighttext);
     font-size: 20px;
     font-weight: bold;
 }
@@ -181,7 +183,7 @@ article aside {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        background-color:var(--lighttan);
+        background-color:var(--darkbg);
         border-bottom: 10px solid var(--darktan);
         border-left: 10px solid var(--darktan);
         color: var(--mainblue);
@@ -197,7 +199,7 @@ article aside {
         margin: 5%;
         border: 5px solid  var(--mainblue);
         padding: 65px;
-        background-color:  var(--darktan);
+        background-color:  white;
     }
 
     /* project main img-link */
@@ -208,7 +210,7 @@ article aside {
         font-size: 20px;
         margin: 10% 15%;
         padding: 15%;
-        background-color:  var(--darktan);
+        background-color:  white;
         border: 10px solid  var(--mainblue);
     }
 
