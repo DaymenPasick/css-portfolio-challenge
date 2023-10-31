@@ -172,14 +172,9 @@ article aside {
 
 
 /* PROJECTS SECTION START */
-     /* overall project section container */
-    section {
-        display: flex;
-        align-content: flex-end;
-        background-color:  var(--mainblue);
-    }
-    
-    /* projects label container */
+
+
+    /* left-side projects label container */
     section aside { 
         display: flex;
         align-items: center;
@@ -190,8 +185,15 @@ article aside {
         background-color: var(--mainblue);
         height: 50vh;
     }
+    /* project section overall container */
+    section {
+        display: flex;
+        align-content: flex-end;
+        background-color:  var(--mainblue);
+    }
     
-    /* project img-link container */
+    
+    /* project section overall img container */
     .project-section {
         display: flex;
         flex-wrap: wrap;
@@ -204,6 +206,26 @@ article aside {
         width: 100%;
     }
 
+
+    /* for img1 to be an anchor for ovelay-text1 label(Seo-Refactor)*/
+    #main-img-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    #main-img-container img {
+        display: flex;
+        position: relative;
+        flex-wrap: nowrap;
+        flex: 1;
+        justify-content: center;
+        color: var(--mainblue);
+        font-size: 20px;
+        margin: 10% 5%;
+        border: 5px solid  var(--mainblue);
+        padding: 0;
+        width: 90%;
+    }
      
     /* smaller project-img container for relative position anchor */
     .project-img-container {
@@ -224,6 +246,20 @@ article aside {
         width: 100%;
         margin: 0 5% 15% 5%;
         padding: 0;
+    }
+    /* section for project image labels */
+    
+    .overlay-text1 {
+        position: absolute;
+        top: 70%; 
+        left: 80%; 
+        transform: translate(-50%, -50%); 
+        background-color: #000000; 
+        color: #fff; 
+        padding: 10px 20px; 
+        font-size: 15px;
+        box-shadow: 5px 10px 15px var(--mainblue); 
+        text-align: center;
     }
 
     .overlay-text2 {
@@ -269,43 +305,6 @@ article aside {
         position: absolute;
         top: 50%; 
         left: 40%; 
-        transform: translate(-50%, -50%); 
-        background-color: #000000; 
-        color: #fff; 
-        padding: 10px 20px; 
-        font-size: 15px;
-        box-shadow: 5px 10px 15px var(--mainblue); 
-        text-align: center;
-    }
-
-
-
-
-    /* project main image container  for relative position anchor*/
-    #main-img-container {
-        position: relative;
-        display: inline-block;
-    }
-
-    #main-img-container img {
-        display: flex;
-        position: relative;
-        flex-wrap: nowrap;
-        flex: 1;
-        justify-content: center;
-        color: var(--mainblue);
-        font-size: 20px;
-        margin: 10% 5%;
-        border: 5px solid  var(--mainblue);
-        padding: 0;
-        width: 90%;
-    }
-
-    
-    .overlay-text1 {
-        position: absolute;
-        top: 70%; 
-        left: 80%; 
         transform: translate(-50%, -50%); 
         background-color: #000000; 
         color: #fff; 
