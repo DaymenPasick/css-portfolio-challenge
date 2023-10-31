@@ -117,7 +117,6 @@ figure #self-img {
     order: -1; /* order -1 translates the img over to the other side of the container */
     width:18%;
     margin-left: 1%;
-
     border-left: 10px solid var(--darktan);
     border-right: 10px solid var(--darktan);
 }
@@ -254,6 +253,7 @@ article aside {
     .img3 img {
         display: flex;
         width: 100%;
+        transform: scale(-1,1);
         margin: 0 5% 15% 5%;
         border-radius: 4%;
         padding: 0;
@@ -270,6 +270,8 @@ article aside {
         width: 100%;
         margin: 0 5% 15% 5%;
         border-radius: 4%;
+        transform: scale(1,-1);
+        transform: scale(-1,1);
         padding: 0;
     }
     
