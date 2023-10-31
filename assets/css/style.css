@@ -173,7 +173,6 @@ article aside {
 
 /* PROJECTS SECTION START ------------------------------------ */
 
-
     /* left-side projects label container */
     section aside { 
         display: flex;
@@ -236,6 +235,7 @@ article aside {
         padding: 0;
     }
 
+    /* anchor+container+style set for img2 & img-txt2 */
     .img2 {
         position: relative;
         display: inline-block;
@@ -248,6 +248,7 @@ article aside {
         padding: 0;
     }
 
+    /* anchor+container+style set for img3 & img-txt3 */
     .img3 {
         position: relative;
         display: inline-block;
@@ -260,6 +261,7 @@ article aside {
         padding: 0;
     }
 
+    /* anchor+container+style set for img4 & img-txt4 */
     .img4 {
         position: relative;
         display: inline-block;
@@ -271,7 +273,8 @@ article aside {
         margin: 0 5% 15% 5%;
         padding: 0;
     }
-
+    
+    /* anchor+container+style set for img5 & img-txt5 */
     .img5 {
         position: relative;
         display: inline-block;
@@ -287,7 +290,7 @@ article aside {
 
 
     /* section for project image labels */
-    .overlay-text1 {
+    .img-txt1 {
         position: absolute;
         top: 70%; 
         left: 80%; 
@@ -300,7 +303,7 @@ article aside {
         text-align: center;
     }
 
-    .overlay-text2 {
+    .img-txt2 {
         position: absolute;
         top: 50%; 
         left: 80%; 
@@ -313,7 +316,7 @@ article aside {
         text-align: center;
     }
 
-    .overlay-text3 {
+    .img-txt3 {
         position: absolute;
         top: 20%; 
         left: 80%; 
@@ -326,7 +329,7 @@ article aside {
         text-align: center;
     }
 
-    .overlay-text4 {
+    .img-txt4 {
         position: absolute;
         top: 20%; 
         left: 40%; 
@@ -339,7 +342,7 @@ article aside {
         text-align: center;
     }
 
-    .overlay-text5 {
+    .img-txt5 {
         position: absolute;
         top: 50%; 
         left: 40%; 
