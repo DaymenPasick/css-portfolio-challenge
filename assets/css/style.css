@@ -236,18 +236,31 @@ article aside {
         padding: 0;
     }
 
-    #img2 {
+    .img2 {
         position: relative;
         display: inline-block;
     }
 
-    .project-img-container img {
+    .img2 img {
         display: flex;
         width: 100%;
         margin: 0 5% 15% 5%;
         padding: 0;
     }
-    
+
+    .img3 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .img3 img {
+        display: flex;
+        width: 100%;
+        margin: 0 5% 15% 5%;
+        padding: 0;
+    }
+
+
     /* section for project image labels */
     .overlay-text1 {
         position: absolute;
