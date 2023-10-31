@@ -228,7 +228,6 @@ article aside {
     }
      
     /* smaller project-img container for relative position anchor */
-
     .project-img-container {
         display: flex;
         flex-wrap: wrap;
@@ -248,8 +247,8 @@ article aside {
         margin: 0 5% 15% 5%;
         padding: 0;
     }
-    /* section for project image labels */
     
+    /* section for project image labels */
     .overlay-text1 {
         position: absolute;
         top: 70%; 
