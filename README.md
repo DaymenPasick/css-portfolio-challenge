@@ -13,7 +13,7 @@ First and foremost, thank you for taking the time to look at my portfolio! I've 
 ## Usage
 
 Please click the link to check out my portfolio: 
-https://daymenpasick.github.io/semantic-seo-refactor/
+https://daymenpasick.github.io/css-portfolio-challenge/
 
 
 ## License
